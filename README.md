@@ -8,6 +8,14 @@ Test project to interface Raspberry Pi a DC motor via Python
 
 https://www.cl.cam.ac.uk/projects/raspberrypi/tutorials/robot/breadboard/
 
+#### Connecting
+- The Positive of a component always is connected with where the voltage is coming from
+- The Negative end of the component always is connected with where the grounding goes
+
+###### Sample close circuit
+- GPI04 -> Postive Light Bulb , Negative Light Bulb -> GND
+
+
 #### Installing the environment dependencies in Raspberry PI
 https://www.cl.cam.ac.uk/projects/raspberrypi/tutorials/robot/downloads/
 
