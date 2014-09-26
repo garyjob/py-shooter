@@ -11,9 +11,10 @@ https://www.cl.cam.ac.uk/projects/raspberrypi/tutorials/robot/breadboard/
 #### Installing the environment dependencies in Raspberry PI
 https://www.cl.cam.ac.uk/projects/raspberrypi/tutorials/robot/downloads/
 
-# When using GPIO.BOARD the pinNum goes from 1 - 26 as depicted in the circles
+## Usage
+When using GPIO.BOARD the pinNum goes from 1 - 26 as depicted in the circles
 ```python
-pinNum = 7
+pinNum = 7 # GPI04
 GPIO.setmode(GPIO.BOARD) # Set to board mode
 GPIO.setup(pinNum,GPIO.OUT)
 
